@@ -1,6 +1,5 @@
 /* 
-// Shows byte stored in virtual memory for any entered int,
-// and following casts to float and double.
+// Shows how int, float and double are represented in memory.
 // Original idea from Computer Systems - A programmer perspective (R. E. Bryant, D. R. O'Halloran), Third edition 
 */
 
