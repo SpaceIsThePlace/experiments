@@ -1,9 +1,5 @@
-/* 
-// Shows how int, float and double are represented in memory.
-// Original idea from Computer Systems - A programmer perspective (R. E. Bryant, D. R. O'Halloran), Third edition 
-*/
-
 #include <stdio.h>
+#include <string.h>
 
 typedef unsigned char *bytePointer;
 
@@ -81,6 +77,11 @@ int main(int argc, char *argv[])
   scanf("%d", &num);
   printf("\n");
   testShowBytes(num);
+
+  char str[80];
+  printf("\n\nEnter string: ");
+  scanf("%s", str);
+  showBytes((bytePointer) str, strlen(str) + 1);
 
   return 0;
 }
