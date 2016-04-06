@@ -1,3 +1,3 @@
-Just some experiments or code to understand how things work.
+Just some experiments against boredom
 
 *************************
