@@ -1,3 +1,9 @@
+/* 
+// Shows byte stored in virtual memory for any entered int,
+// and following casts to float and double.
+// Original idea from Computer Systems - A programmer perspective (R. E. Bryant, D. R. O'Halloran), Third edition 
+*/
+
 #include <stdio.h>
 
 typedef unsigned char *bytePointer;
